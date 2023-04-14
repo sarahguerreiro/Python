@@ -18,3 +18,9 @@ elif nota >= 5:
 else: 
     print('Reprovado')
 '''
+media = 8 
+presenca = 71
+if media >=7 and presenca >=70:
+    print('Aprovado!')
+else:
+    print('Reprovado.')
