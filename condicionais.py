@@ -17,7 +17,11 @@ elif nota >= 5:
 
 else: 
     print('Reprovado')
+
 '''
+
+#operações conjuntas
+
 media = 8 
 presenca = 71
 if media >=7 and presenca >=70:
