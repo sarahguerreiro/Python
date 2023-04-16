@@ -9,3 +9,10 @@ numero_escolhido = int(input('Informe um número entre 1 e 20:'))
 while numero_escolhido != numero_sorteado:
     print('Voce errou o número. Tente novamente!')
     numero_escolhido = int(input('Informe um número entre 1 e 20:'))
+
+print('Parabéns, vc acertou!')
+
+'''
+O while é considerada uma estrutura de repetição não controlada, uma vez q, se o user quiser digitar qualquer coisa fora do escopo da pergunta, mesm0 assim o codigo continuara rodando do mesmo jeito
+
+'''
