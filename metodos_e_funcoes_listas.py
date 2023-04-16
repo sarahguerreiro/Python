@@ -25,3 +25,37 @@ lista.extend(lista2)
 print('depois do extend: ', lista)
 
 
+# POP - Metodo de remoçao de elementos de uma lista. Se vc nao passar nenhum valor como paramentro, ele vai tirar o ultimo elemento da lista; mas vc pode especificar qual elemento em especifico vc quer tirar passando o valor de seu indice entre parentese:
+
+lista.pop(1)
+
+print('lista apos o pop: ', lista)
+
+
+# REMOVE - Aqui o q vc passa ao paramentro é o elemento em si a ser removido. Detalhe, ele só remove o primeiro elemento q ele encontrar, e nao todos os q forem == ao valor setado entre parentese: 
+
+
+lista.remove(3)
+
+print('depois do remove: ', lista)
+
+
+# COUNT - Com esse metodo vc consegue contar quantas x um elemento, setado entre parenteses, aparece na lista:  
+
+print('Quantidade de 2 na lista: ', lista.count(2))
+
+
+# INDEX - Te diz o índice de determinado elemento num array:  
+
+print('indice do elemento 12: ', lista.index(8))
+
+# SORT - Método que serve pra ordenar sua lista:
+
+lista.sort()
+lista.sort(reverse=True)
+print(lista)
+
+
+
+
+
