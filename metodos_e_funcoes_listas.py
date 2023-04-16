@@ -8,9 +8,20 @@ print('antes do append', lista)
 lista.append(3)
 print('depois do append', lista)
 
-# insert
+# INSERT - Adc um elemento a um local especifico da lista, em que vc escolhe/seta
+
+lista.insert(2, 10)
+
+print('Depois do insert: ', lista)
 
 
-# extend
+
+# EXTEND - Unindo duas listas/array
+
+lista2 = [1, 2, 3]
+
+lista.extend(lista2)
+
+print('depois do extend: ', lista)
 
 
