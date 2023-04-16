@@ -47,9 +47,9 @@ print(listado[2:6:2])
 
 # 1. Utilizando os proprios elementos da lista
 
-for elemento in listado:
+'''for elemento in listado:
     print(elemento)
-
+'''
 
 # 2. Utilizando os índices
 
