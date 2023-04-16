@@ -34,10 +34,29 @@ SLICE: Ou Fatiamento, é uma forma de vc capturar pedaços de uma lista, fatiand
 
 '''
 
-listado = [10, 50, 30, 40, 25, 60, 5]
+listado = [10, 50,'listado', 30, 40, 25, 60, 5]
 print(listado[2:5])
 print(listado[0:3])
-print(listado[3:1])
+print(listado[3:5])
 print(listado[4])
 print(listado[2:6:2])
+
+# Iteracões com FOR
+
+
+
+# 1. Utilizando os proprios elementos da lista
+
+for elemento in listado:
+    print(elemento)
+
+
+# 2. Utilizando os índices
+
+print('comprimento de Listado: ', len(listado))
+
+for i in range(len(listado)):
+    print(listado[4])
+ 
+
 
