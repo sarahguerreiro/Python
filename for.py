@@ -27,7 +27,7 @@ for i in range(1,4):
     nota = float(input(f'informe a sua nota: {i}: '))
 
     soma = soma + nota
-
+print(soma)
 
 '''
 INJETANDO UMA VAR DENTRO DE UMA STRING: 
