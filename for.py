@@ -1,9 +1,13 @@
 
 '''
+o for é uma estrutura de repetição feita praser usada quando vc tem um numero total de vezes em que vc quer q aconteç essa repetição
+o range é usado quando vc quer contar uma faixa especifica de numeros q vc coloca entrw aspas depois da palara reservada range 
+
 range vai de 0 ate o numero setado -1:
 
 for i in range(6):
     print(i)
+    
 '''
 
 
