@@ -56,6 +56,21 @@ lista.sort(reverse=True)
 print(lista)
 
 
+# FUNÇÕES PARA LISTAS
+
+# LEN - te dá o tamanho da lista
+
+print(len(lista))
+
+# SUM - Somando todos os valores de uma lista
+
+print(sum(lista))
 
 
+# MAX - Mostra o maior valor da lista
 
+print('maior elemento da lista: ', max(lista))
+
+# MIN - Mostra o menor valor da lista
+
+print('menor valor da lista: ', min(lista))
