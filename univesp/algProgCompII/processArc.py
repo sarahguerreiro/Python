@@ -22,6 +22,7 @@ def readFile(filename):
     wordList = content.split()
     print(wordList)
     return len(wordList), len(content)
+# a função len() retorna o numero de itens num objeto. o primeiro tras a quantidade de palavras no arquivo e a segunda tras a quantidade de caracteres
 n_words, n_chars = readFile('test.txt')
 
 
@@ -45,5 +46,7 @@ file.close()
 # Para escrever outros tipos de dados, alem d e string, devemos converte-los ou usar o metodo format():
 
 # >>> idade = 30
-# >>> outfile.write('sua idade é {} anos.\n')
+
+# >>> outfile.write('sua idade é '+str(idade)+' anos.\n')
+
 # >>> outfile.write('sua idade é {} anos.\n'.format(idade))
